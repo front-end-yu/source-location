@@ -27,6 +27,6 @@ sl dist/1.f47efcb58028826c7c05.js.map 1 34
 ```
 
 结果：  
-<img src="https://github.com/front-end-yu/source-location/blob/master/lib/img/res.png" width="850" height="200"><br />
+<img src="https://github.com/front-end-yu/source-location/blob/master/lib/img/res.png" width="850" height="170"><br />
 
 
