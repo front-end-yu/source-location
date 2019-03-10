@@ -1,0 +1,19 @@
+{
+  "name": "source-location",
+  "version": "1.0.0",
+  "description": "A tool for locating source code locations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuqing",
+  "license": "ISC",
+  "bin": {
+    "sl": "./bin/sl.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "source-map": "^0.7.3"
+  }
+}
