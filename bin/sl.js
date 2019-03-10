@@ -2,12 +2,13 @@
 
 const searchSource = require ('../lib/index.js')
 const chalk = require('chalk');
+const pkg = require('../package.json');
 const log = console.log
 
 var program = require('commander');
  
 program
-  .version('1.0.0')
+  .version(pkg.version, '-v, --version')
   .parse(process.argv);
 
   const line = Number(program.args[1])
