@@ -1,12 +1,11 @@
 {
   "name": "source-location",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for locating source code locations",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "yuqing",
+  "author": "YuShihu",
   "license": "ISC",
   "bin": {
     "sl": "./bin/sl.js"
