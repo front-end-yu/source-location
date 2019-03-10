@@ -7,12 +7,12 @@
 ## 使用方法
 首先在本地打包找到和生产环境相同版本的源码，编译生产一份带map文件的代码，然后找到报错文件对应的map文件
 
-# 全局安装
+## 全局安装
 ```bash
 npm i source-location -g
 ```
 
-## 使用方法
+## 命令
 ```bash
 sl <mapFilePath> <line> <column>
 ```
