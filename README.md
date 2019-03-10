@@ -13,8 +13,6 @@ npm i source-location -g
 ```
 
 ```bash
-## help
-relix -h
 
 ## 使用方法
 sl <mapFilePath> <line> <column>
