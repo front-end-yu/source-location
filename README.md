@@ -6,20 +6,24 @@
 
 ## 使用方法
 首先在本地打包找到和生产环境相同版本的源码，编译生产一份带map文件的代码，然后找到报错文件对应的map文件
-```bash
+
 # 全局安装
-npm i source-location -g
-
-```
-
 ```bash
+npm i source-location -g
+```
 
 ## 使用方法
+```bash
 sl <mapFilePath> <line> <column>
-egg:
+```
+参数含义如下：
+* mapFilePath 对应的map文件地址
+* line 报错代码行号
+* column 报错代码列数
+
+示例:
 sl dist/1.f47efcb58028826c7c05.js.map 1 34 
 
-> mapFilePath 对应的map文件地址
-> line 报错代码行号
-> column 报错代码列数
-```
+结果：
+
+
