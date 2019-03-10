@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const searchSource = require ('../src/index.js')
+const searchSource = require ('../lib/index.js')
 const chalk = require('chalk');
 const log = console.log
 

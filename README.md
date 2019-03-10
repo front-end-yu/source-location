@@ -22,8 +22,11 @@ sl <mapFilePath> <line> <column>
 * column 报错代码列数
 
 示例:
+```bash
 sl dist/1.f47efcb58028826c7c05.js.map 1 34 
+```
 
 结果：
+<img src="./lib/img/res.png" width="275" height="75"><br />
 
 
