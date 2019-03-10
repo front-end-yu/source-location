@@ -27,6 +27,12 @@ sl dist/1.f47efcb58028826c7c05.js.map 1 34
 ```
 
 结果：  
-<img src="https://github.com/front-end-yu/source-location/blob/master/lib/img/res.png" width="850" height="170"><br />
+```bash
+sourcecode info:
+sourceCodePath: webpack:///vendor.9f6b2fb3bbe55f14c4b1.js
+line: 3
+column: 24
+name: exports
+```
 
 
