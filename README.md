@@ -10,7 +10,7 @@ Install the source-location command line utility globally with npm. Elevated pri
 npm install --global source-location
 ```
 ## Command line options  
-The output of reverse-sourcemap --help pretty much covers all the options:  
+The output of source-location --help pretty much covers all the options:  
 ```bash
 Usage: sl [options]
 
