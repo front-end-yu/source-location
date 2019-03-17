@@ -1,38 +1,37 @@
 # Source-location
-用于定位源码位置的cli
+> This is a cli to get location of original source code.
 
-## 什么是source-location
-由于生产环境代码是编译后代码，搜集到报错信息的行和列无法在源码中对应，source-location是用来定位到源码位置的命令行小工具，帮助快速定位源码位置，提升效率。
+## Why use  
+Since the production environment code is compiled code, the rows and columns that collect the error information cannot correspond in the source code. Source-location is a command-line widget used to locate the source code to help locate the source location quickly and improve efficiency. Before using this cli, you need to compile a map file of the production environment yourself.
 
-## 使用方法
-首先在本地打包找到和生产环境相同版本的源码，编译生产一份带map文件的代码，然后找到报错文件对应的map文件
-
-## 全局安装
+## Install
+Install the source-location command line utility globally with npm. Elevated privileges might be needed via sudo, depending on the platform. In most cases just:  
 ```bash
-npm i source-location -g
+npm install --global source-location
+```
+## Command line options  
+The output of reverse-sourcemap --help pretty much covers all the options:  
+```bash
+Usage: sl [options]
+
+Options:
+  -v, --version           output the version number
+  -p, --source-flie-path  The generated source file
+  -l, --ine               The line number in the generated source
+  -c, --column            The column number in the generated source
+  -h, --help              output usage information
 ```
 
-## 命令
+## Testing
+use the following commands
 ```bash
-sl <mapFilePath> <line> <column>
+sl -p dist/1.f47efcb58028826c7c05.js.map -l 1 -c 34 
 ```
-参数含义如下：
-* mapFilePath 对应的map文件地址
-* line 报错代码行号
-* column 报错代码列数
+output：
 
-示例:
-```bash
-sl dist/1.f47efcb58028826c7c05.js.map 1 34 
-```
-
-结果：  
-```bash
 sourcecode info:
-sourceCodePath: webpack:///vendor.9f6b2fb3bbe55f14c4b1.js
-line: 3
-column: 24
-name: exports
-```
-
-
+<font color=#e3e24d >sourcecode info:</font>  
+<font color=#3771c1 >sourceCodePath</font>:<font color=#52b17b >webpack:///src/page/manage.vue</font>  
+<font color=#3771c1 >line</font>:<font color=#52b17b >3</font>  
+<font color=#3771c1 >column</font>:<font color=#52b17b >66</font>
+<font color=#3771c1 >name</font>:<font color=#52b17b >exports</font>
