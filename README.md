@@ -26,12 +26,12 @@ Options:
 use the following commands
 ```bash
 sl -p dist/1.f47efcb58028826c7c05.js.map -l 1 -c 34 
-```
+```    
 output：
-
+```bash
 sourcecode info:
-<font color=#e3e24d >sourcecode info:</font>  
-<font color=#3771c1 >sourceCodePath</font>:<font color=#52b17b >webpack:///src/page/manage.vue</font>  
-<font color=#3771c1 >line</font>:<font color=#52b17b >3</font>  
-<font color=#3771c1 >column</font>:<font color=#52b17b >66</font>
-<font color=#3771c1 >name</font>:<font color=#52b17b >exports</font>
+sourceCodePath: webpack:///src/pages/common/403.vue
+line: 4
+column: 15
+name: export
+```
