@@ -30,8 +30,14 @@ sl -p dist/1.f47efcb58028826c7c05.js.map -l 1 -c 34
 output：
 ```bash
 sourcecode info:
-sourceCodePath: webpack:///src/pages/common/403.vue
+sourceCodePath: webpack:///src/pages/common/403.vue // 
 line: 4
 column: 15
 name: export
 ```
+
+## Output properties
+sourceCodePath: The original source file, or null if this information is not available.  
+line: The line number in the original source, or null if this information is not available. The line number is 1-based.  
+column: The column number in the original source, or null if this information is not available. The column number is 0-based.  
+name: The original identifier, or null if this information is not available.  
