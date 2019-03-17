@@ -29,8 +29,7 @@ sl -p dist/1.f47efcb58028826c7c05.js.map -l 1 -c 34
 ```
 output：
 
-sourcecode info:
-<font color=#e3e24d >sourcecode info:</font>  
+<font color=#FFD700 >sourcecode info:</font>  
 <font color=#3771c1 >sourceCodePath</font>:<font color=#52b17b >webpack:///src/page/manage.vue</font>  
 <font color=#3771c1 >line</font>:<font color=#52b17b >3</font>  
 <font color=#3771c1 >column</font>:<font color=#52b17b >66</font>
